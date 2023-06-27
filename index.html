@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand" href="#">RESTARTANT </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#Home" style="color: white;">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#About" style="color: white;">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Contact" style="color: white;">Contact Us</a>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Testimonial" style="color:white;">Testimonial</a>
+
+                </li>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <section id="Home">
+        <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+                <h1>WELCOME</h1>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="restartant img.jpeg" width="1400px" height="400px">
+
+                </div>
+    </section>
+
+
+
+    <!-- <div class="container">
+    <h1>WELCOME</h1>
+  <img width="1100px" height="400px" src="restartant img.jpeg">
+</div> -->
+    <section id="Contact">
+        <div class="container">
+            <div class="jumbotron">
+                <h1>Contact Us</h1>
+                <p>Fill out the form below to get in touch with us.</p>
+            </div>
+            <form id="contactForm">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" class="form-control" id="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" class="form-control" id="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea class="form-control" id="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+
+
+
+            <section id="Testimonial">
+                <div class="container px-2 py-3" id="icon-grid">
+                    <h2 class="">Testimonial</h2>
+
+                    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4">
+                        <div class=" card pic1">
+                            <img src="restartant img.jpeg" alt="" height="100px" width="100px" class="customers">
+                            <div class="card-body">
+                                <h4 class="fw-bold mb-0"></h4>
+                                <p>"Saravana bavan hotal" </p>
+                            </div>
+                        </div>
+                        <div class=" card pic2">
+                            <img src="https://www.shutterstock.com/image-photo/customer-experience-concept-enjoying-food-drink-1012764895"
+                                alt="" height="100px" width="100px" class="customers">
+                            <div class="card-body">
+                                <h4 class="fw-bold mb-0">TIM </h4>
+                                <p>"TASTY restartant"</p>
+                            </div>
+                        </div>
+                        <div class=" card pic3">
+                            <img src="https://img.freepik.com/free-photo/full-shot-smiley-woman-with-smartphone_23-2149394418.jpg?w=740&t=st=1687859680~exp=1687860280~hmac=b8ead216e191d759c3dd797ecdc6e1f10d888a6fecb7076759d614a364cb5a73"
+                                alt="" height="100px" width="100px" class="customers">
+                            <div class="card-body">
+                                <h4 class="fw-bold mb-0">Emily S</h4>
+                                <p>"Impressive attention to detail! The high-quality hardware of this clone is on par
+                                    with the original. I could be happier with my purchase." </p>
+                            </div>
+                        </div>
+            </section>
+
+            <div>
+                <p>LoKY lOKEsh @ 2023...</p>
+            </div>
+
+        </div>
+
+
+        <section id="About">
+
+
+            <div class="container">
+                <div class="container px-2 py-3" id="icon-grid">
+
+                <h2 class="">ABOUT..</h2>
+
+                <h1>SPicY ResTArtAnT.......</h1>
+                <h2>no:56/2, Main Road, Vechery</h2>
+
+            </div>
+
+        </section>
+
+
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <script>
+
+            $(document).ready(function () {
+                $('#contactForm').submit(function (event) {
+                    event.preventDefault();
+                    alert('Form submitted!');
+                });
+            });
+        </script>
+
+</body>
+
+</html>

@@ -1,0 +1,17 @@
+body {
+    padding-top: 60px;
+  }
+  .jumbotron {
+    text-align: center;
+  }
+  .form-group {
+    margin-bottom: 20px;
+  }
+  @media (max-width: 576px) {
+    body {
+      padding-top: 15px;
+    }
+    .jumbotron {
+      padding: 15px;
+    }
+  }
